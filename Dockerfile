@@ -8,7 +8,7 @@ RUN apt-get upgrade -y
 USER jovyan
 
 RUN pip install plotly
-RUN pip install darts
+RUN pip install orion-ml
 RUN pip install -U torch torchaudio --no-cache-dir
 RUN pip install wandb
 RUN pip install ipywidgets==8.0.4
