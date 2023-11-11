@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TommasoRomani/rofilobookAD/issues"
   },
-  "homepage": "https://github.com/TommasoRomani/rofilobookAD#readme"
+  "homepage": "https://github.com/TommasoRomani/rofilobookAD#readme",
+  "publishConfig":{
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  }
 }
